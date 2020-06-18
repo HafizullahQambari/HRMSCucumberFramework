@@ -1,0 +1,142 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-16T22:05:11.332Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4743580000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.start()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add Employees Work Experience",
+        "description": "",
+        "id": "work-experience;add-employees-work-experience",
+        "after": [
+          {
+            "result": {
+              "duration": 679208000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.end(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2606124200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login to HRMS Application Page",
+            "match": {
+              "location": "com.hrms.steps.EmployeeWorkExperienvce.user_login_to_HRMS_Application_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2114109900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on pim button",
+            "match": {
+              "location": "com.hrms.steps.EmployeeWorkExperienvce.user_click_on_pim_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2857778700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter Employee id",
+            "match": {
+              "location": "com.hrms.steps.EmployeeWorkExperienvce.user_Enter_Employee()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3680039800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select the employee",
+            "match": {
+              "location": "com.hrms.steps.EmployeeWorkExperienvce.user_select_the_employee()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1303592000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on qualification button",
+            "match": {
+              "location": "com.hrms.steps.EmployeeWorkExperienvce.user_click_on_qualification_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32907200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on add Work Experience",
+            "match": {
+              "location": "com.hrms.steps.EmployeeWorkExperienvce.user_click_on_add_Work_Experience()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7609582400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter employee work experience",
+            "match": {
+              "location": "com.hrms.steps.EmployeeWorkExperienvce.user_enter_employee_work_experience()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28922000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Employee work experiece added successfully",
+            "match": {
+              "location": "com.hrms.steps.EmployeeWorkExperienvce.employee_work_experiece_added_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Work Experience",
+    "description": "",
+    "id": "work-experience",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddEmployeeWorkExperience.feature",
+    "tags": []
+  }
+]
